@@ -53,3 +53,7 @@ Simplificamos as rotas não precisando importar arquivo para cada rota, e deixam
 
 ## 73. N12 - Refatorando Sistema e Otimizando o código
 - Criei um módulo de erros na pasta utils que é carregado junto com o servidor. Agora, essa função está disponível em todo o projeto através do app, eliminando repetições e melhorando a organização do código.
+
+## 74. N13 - Obtendo dados de um usuário
+- Criando mais uma função para resgatar apenas um usuário pelo id, usando o método findOne e passando o id que veio na rota, buscando o usuário pelo id.
+![alt text](image-10.png)
