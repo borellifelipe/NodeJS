@@ -19,3 +19,9 @@
 ## N04 - Detectando URL diferente
 - Utilizamos a estrutura switch para criar um roteamento que identifica a URL acessada pelo navegador. Se o caminho for '/', o servidor responde com um HTML, e se for '/users', ele entrega um JSON
 -![alt text](image-3.png)
+
+## N05 - Entendendo o Package.Json e Instalando o Express
+
+- O NPM (Node Package Manager) é o gerenciador de pacotes do Node.js
+- Package.JSON - Ponto de partida, dentro dele que fica o codigo e os modulos.
+![alt text](image-4.png)
