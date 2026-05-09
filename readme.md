@@ -46,3 +46,7 @@ Simplificamos as rotas não precisando importar arquivo para cada rota, e deixam
 
 ## 71. N10 - Persistência de dados com o NeDB (Banco de dados JavaScript)
 - Instalando o NeDB e armazenando as rotas que estão sendo enviadas via Postman.
+
+## 72. N11 - Listando os usuários do banco NeDB
+-Usando o método find, eu busco todos os usuários do arquivo 'users.db' passando um objeto vazio para retornar todos os registros. Em vez de usar o if/else tradicional para o erro do callback, utilizo o bloco try/catch para capturar exceções durante a execução. Caso o processo ocorra com sucesso, o servidor retorna a lista de usuários; se ocorrer algum erro, ele interrompe o fluxo e envia o erro no formato JSON com o status 400
+![alt text](image-9.png)
