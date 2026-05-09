@@ -50,3 +50,6 @@ Simplificamos as rotas não precisando importar arquivo para cada rota, e deixam
 ## 72. N11 - Listando os usuários do banco NeDB
 -Usando o método find, eu busco todos os usuários do arquivo 'users.db' passando um objeto vazio para retornar todos os registros. Em vez de usar o if/else tradicional para o erro do callback, utilizo o bloco try/catch para capturar exceções durante a execução. Caso o processo ocorra com sucesso, o servidor retorna a lista de usuários; se ocorrer algum erro, ele interrompe o fluxo e envia o erro no formato JSON com o status 400
 ![alt text](image-9.png)
+
+## 73. N12 - Refatorando Sistema e Otimizando o código
+- Criei um módulo de erros na pasta utils que é carregado junto com o servidor. Agora, essa função está disponível em todo o projeto através do app, eliminando repetições e melhorando a organização do código.
