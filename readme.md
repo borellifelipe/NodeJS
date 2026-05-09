@@ -15,3 +15,7 @@
 - aprendi a criar um servidor local e uma porta especifica.
 ![alt text](image-1.png)
 ![alt text](image-2.png)
+
+## N04 - Detectando URL diferente
+- Utilizamos a estrutura switch para criar um roteamento que identifica a URL acessada pelo navegador. Se o caminho for '/', o servidor responde com um HTML, e se for '/users', ele entrega um JSON
+-![alt text](image-3.png)
