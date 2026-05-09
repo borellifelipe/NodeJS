@@ -33,3 +33,9 @@
 ## 68. N07 - Separando Rotas do Arquivo Principal
 -Aprendi a criar uma rota para cada arquivo para ficar mais estrutura o projeto.
 ![alt text](image-6.png)
+
+## 69. N08 - Carregando Rotas com Consign
+- Instalando o CONSIGN
+![alt text](image-7.png)
+
+Simplificamos as rotas não precisando importar arquivo para cada rota, e deixamos de uma maneira mas limpa, deixando tudo na pasta do consign (app).

@@ -1,12 +1,8 @@
-// Chamando o express
-const express = require('express');
-// routes recebe o express.Router() para as rotas
-const routes = express.Router()
-
+module.exports = app=>{
 
 // agora eu não preciso criar o servidor o express mesmo cria
 // quando o navegador acessar a rota localhost:3000 vai fazer um get da informação
-routes.get('/',(req, res)=>{
+app.get('/',(req, res)=>{
     // aqui estou definindo status caso caia aqui 200 'ok'
     res.statusCode = 200
     // aqui estou informando qual tipo de conteudo o navegador vai receber
@@ -16,4 +12,4 @@ routes.get('/',(req, res)=>{
     res.end('<h1>Bora para Cimaa</h1>')
 });
 
-module.exports = routes;
+};
