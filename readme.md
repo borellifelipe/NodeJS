@@ -60,3 +60,6 @@ Simplificamos as rotas não precisando importar arquivo para cada rota, e deixam
 
 ## 75. N14 - Editando um usuário
 - Usando o método update atualizo os dados do usuário, para ver no Postman (json) todos os dados do usuário.
+
+## 76. N15 - Excluindo um usuário
+- Para realizar a exclusão do usuário usei o método remove e passei o id do usuário que eu queria excluir.

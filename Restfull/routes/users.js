@@ -45,17 +45,17 @@ module.exports = (app) => {
             if (err) {
                 app.utils.error.send(err, req, res);
             } else {
-                res.status(200).json(Object.assign({}, req.params, req.body));
+                res.status(200).json(Object.assign(req.params,req.body));
             }
         });
     });
 
     routeId.delete((req, res) => {
-        db.remove({ _id: req.params.id }, {}, (err, numRemoved) => {
+        db.remove({ _id: req.params.id }, {}, err => {
             if (err) {
                 app.utils.error.send(err, req, res);
             } else {
-                res.status(200).json({ _id: req.params.id, deleted: numRemoved });
+                res.status(200).json(Object.assign(req.params,req.body));
             }
         });
     });
