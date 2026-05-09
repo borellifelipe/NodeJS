@@ -29,3 +29,7 @@
 ## 67. N06 - Nodemon e Criando o Servidor com Express
 - Instalando o Nodemon para ficar atualizando de forma automatca sem precisar ficar parando e iniciando no terminal a cada atualização.
 ![alt text](image-5.png)
+
+## 68. N07 - Separando Rotas do Arquivo Principal
+-Aprendi a criar uma rota para cada arquivo para ficar mais estrutura o projeto.
+![alt text](image-6.png)
