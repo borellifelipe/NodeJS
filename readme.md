@@ -7,3 +7,6 @@
 
 **O NPM (Node Package Manager) é o gerenciador de pacotes do Node.js**
 
+### N02 - Instalando o NodeJS
+- Como já tinha a instalação do nó no computador, apenas acompanhei a aula. E visualizei a versão.
+![alt text](image.png)
