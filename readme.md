@@ -7,21 +7,25 @@
 
 **O NPM (Node Package Manager) é o gerenciador de pacotes do Node.js**
 
-### N02 - Instalando o NodeJS
+### 63. N02 - Instalando o NodeJS
 - Como já tinha a instalação do nó no computador, apenas acompanhei a aula. E visualizei a versão.
 ![alt text](image.png)
 
-## N03 - Criando um Servidor Web com Node.JS
+## 64. N03 - Criando um Servidor Web com Node.JS
 - aprendi a criar um servidor local e uma porta especifica.
 ![alt text](image-1.png)
 ![alt text](image-2.png)
 
-## N04 - Detectando URL diferente
+## 65. N04 - Detectando URL diferente
 - Utilizamos a estrutura switch para criar um roteamento que identifica a URL acessada pelo navegador. Se o caminho for '/', o servidor responde com um HTML, e se for '/users', ele entrega um JSON
 -![alt text](image-3.png)
 
-## N05 - Entendendo o Package.Json e Instalando o Express
+## 66. N05 - Entendendo o Package.Json e Instalando o Express
 
 - O NPM (Node Package Manager) é o gerenciador de pacotes do Node.js
 - Package.JSON - Ponto de partida, dentro dele que fica o codigo e os modulos.
 ![alt text](image-4.png)
+
+## 67. N06 - Nodemon e Criando o Servidor com Express
+- Instalando o Nodemon para ficar atualizando de forma automatca sem precisar ficar parando e iniciando no terminal a cada atualização.
+![alt text](image-5.png)
