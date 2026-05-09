@@ -10,3 +10,8 @@
 ### N02 - Instalando o NodeJS
 - Como já tinha a instalação do nó no computador, apenas acompanhei a aula. E visualizei a versão.
 ![alt text](image.png)
+
+## N03 - Criando um Servidor Web com Node.JS
+- aprendi a criar um servidor local e uma porta especifica.
+![alt text](image-1.png)
+![alt text](image-2.png)
