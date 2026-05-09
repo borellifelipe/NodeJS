@@ -39,3 +39,7 @@
 ![alt text](image-7.png)
 
 Simplificamos as rotas não precisando importar arquivo para cada rota, e deixamos de uma maneira mas limpa, deixando tudo na pasta do consign (app).
+
+## 70. N09 - Recebendo dados via POST e instalando
+- Instalando Postman e testando o servidor e instalei o body-parse
+![alt text](image-8.png)
