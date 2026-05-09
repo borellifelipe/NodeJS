@@ -39,4 +39,24 @@ module.exports = (app) => {
             }
         });
     });
+
+    routeId.put((req, res) => {
+        db.update({ _id: req.params.id }, { $set: req.body }, err => {
+            if (err) {
+                app.utils.error.send(err, req, res);
+            } else {
+                res.status(200).json(Object.assign({}, req.params, req.body));
+            }
+        });
+    });
+
+    routeId.delete((req, res) => {
+        db.remove({ _id: req.params.id }, {}, (err, numRemoved) => {
+            if (err) {
+                app.utils.error.send(err, req, res);
+            } else {
+                res.status(200).json({ _id: req.params.id, deleted: numRemoved });
+            }
+        });
+    });
 };

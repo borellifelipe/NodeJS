@@ -57,3 +57,6 @@ Simplificamos as rotas não precisando importar arquivo para cada rota, e deixam
 ## 74. N13 - Obtendo dados de um usuário
 - Criando mais uma função para resgatar apenas um usuário pelo id, usando o método findOne e passando o id que veio na rota, buscando o usuário pelo id.
 ![alt text](image-10.png)
+
+## 75. N14 - Editando um usuário
+- Usando o método update atualizo os dados do usuário, para ver no Postman (json) todos os dados do usuário.
