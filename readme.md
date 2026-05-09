@@ -43,3 +43,6 @@ Simplificamos as rotas não precisando importar arquivo para cada rota, e deixam
 ## 70. N09 - Recebendo dados via POST e instalando
 - Instalando Postman e testando o servidor e instalei o body-parse
 ![alt text](image-8.png)
+
+## 71. N10 - Persistência de dados com o NeDB (Banco de dados JavaScript)
+- Instalando o NeDB e armazenando as rotas que estão sendo enviadas via Postman.
