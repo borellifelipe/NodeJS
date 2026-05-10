@@ -1,5 +1,4 @@
 module.exports = app=>{
-
 // agora eu não preciso criar o servidor o express mesmo cria
 // quando o navegador acessar a rota localhost:3000 vai fazer um get da informação
 app.get('/',(req, res)=>{

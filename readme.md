@@ -1,4 +1,4 @@
-# Curso NodeJS - JavasScript no Back-End ( Projeto em Andamento )
+# Curso NodeJS - JavasScript no Back-End
 
 ### 62. N01 - Introdução ao NodeJS
 - Aprendi que o Node usa o motor V8 para rodar JavaScript no servidor e que o NPM gerencia pacotes e biblioteca
@@ -63,3 +63,12 @@ Simplificamos as rotas não precisando importar arquivo para cada rota, e deixam
 
 ## 76. N15 - Excluindo um usuário
 - Para realizar a exclusão do usuário usei o método remove e passei o id do usuário que eu queria excluir.
+
+## 77. N16 - Validando dados recebidos via Post
+- Instamos o express-validator
+![alt text](image-11.png)
+
+## 77. N16 - Validando dados recebidos via Post
+- foi necessario instalar a versão (express-validator@5.3.0), para rodar  com a mensagem no Postaman de quando era algo obrigatorio.
+Curso finalizando mostrando quando o nome não é marcado a opção de "o Nome é obrigatório" e o mesmo caso para e-mails.
+![alt text](image-12.png)
